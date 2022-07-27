@@ -2,6 +2,10 @@
 
 ## Instalação
 
-1. Instale as dependências
+Instale as dependências
 
 `npm install`
+
+## Executando
+
+`npx tailwindcss -i ./src/app.css -o ./dist/app.css --watch`
