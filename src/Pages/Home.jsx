@@ -1,8 +1,8 @@
-import './App.css';
+import '../App.css';
 
-function App() {
+function Home() {
   return (
-<body class="h-screen w-screen justify-center flex items-center bg-gray-100 ">
+<body class="h-screen w-screen justify-center flex items-center bg-esmerald-100 ">
 
   <div class="max-w-md">
     
@@ -28,12 +28,16 @@ function App() {
       
       <div class="">
 
-       <button class="w-full text-white text-sm bg-blue-500 hover:bg-blue-600 p-1.5 rounded-md transition duration-200 ease-in-out">Login</button>
-      
+       <button class="w-full flex flex-row text-white text-sm bg-blue-500 hover:bg-blue-600 p-1.5 rounded-md transition duration-200 ease-in-out "><p class="flex-1">Login</p>
+        <svg xmlns="http://www.w3.org/2000/svg" class="flex-none h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+        </svg> 
+        </button>
+       
       </div>
 
        <div>
-        <a href="./public/register" class="text-xs  text-gray-600 hover:text-blue-600  hover:underline">Cadastrar</a>
+        <a href="./register" class="text-xs  text-gray-600 hover:text-blue-600  hover:underline">Cadastrar</a>
        </div>
 
     </div>
@@ -44,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

@@ -1,8 +1,8 @@
-import './App.css'
+import '../App.css'
 
-function Register (){
-    return(
-<body class="h-screen w-screen flex justify-center items-center bg-gray-100 "> 
+function Register(){
+return(
+<body class="h-screen w-screen flex justify-center items-center bg-es "> 
 
 <div class="max-w-md">
   
@@ -35,12 +35,16 @@ function Register (){
     
     <div class="">
 
-     <button class="w-full text-white text-sm bg-blue-500 hover:bg-blue-600 p-1.5 rounded-md transition duration-200 ease-in-out">Cadastrar</button>
-    
+     <button class="w-full flex flex-row text-white text-sm bg-blue-500 hover:bg-blue-600 p-1.5 rounded-md transition duration-200 ease-in-out "><p class="flex-1">Cadastrar</p>
+      <svg xmlns="http://www.w3.org/2000/svg" class=" flex-none h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+      </button>
+
     </div>
 
     <div>
-      <a href="../index.html"class="text-xs  text-gray-600 hover:text-blue-600  hover:underline"> 
+      <a href="./"class="text-xs  text-gray-600 hover:text-blue-600  hover:underline"> 
         Voltar </a>
     </div>
 
