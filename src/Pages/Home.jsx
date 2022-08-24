@@ -23,7 +23,7 @@ function Home() {
           id="passwordLogin"
           type="password"
           class="w-full  bg-gray-100 border border-teal-900 focus:border-teal-400 rounded px-2 py-1 text-base placeholder-gray-400 focus:outline-none transition duration-200 ease-in-out"/>
-      </div>
+       </div>
       
       <button class="w-full flex flex-row text-white text-sm bg-teal-900 hover:bg-teal-800 p-1.5 rounded-md transition duration-200 ease-in-out "><p class="flex-1">Login</p>
         <svg xmlns="http://www.w3.org/2000/svg" class="flex-none h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
